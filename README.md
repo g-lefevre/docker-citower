@@ -9,7 +9,9 @@ Jenkins is used to fullfill the continous integration role and can call Ansible 
 This container is perfect to deploy AWS (Amazon Web Service) ressources like EC2 instances and more in a continous integration fashion.
 
 [AWS cli reference](https://docs.aws.amazon.com/cli/latest/reference/)
+
 [Ansible Documentation](https://docs.ansible.com/ansible/index.html)
+
 [Jenkins Documentation](https://jenkins.io/doc/)
 
 ## Supported tags
