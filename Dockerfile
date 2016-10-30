@@ -1,5 +1,7 @@
 FROM jenkins:latest
 
+MAINTAINER Guillaume Lefevre <gelefevre@octo.com>
+
 USER root
 
 RUN apt-get update && apt-get install -y python-pip python-setuptools build-essential python-dev libssl-dev libffi-dev && \
