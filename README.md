@@ -1,4 +1,5 @@
 # Continous Integration Tower
+[![](https://images.microbadger.com/badges/image/glefevre/citower.svg)](https://microbadger.com/images/glefevre/citower "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/glefevre/citower.svg)](https://microbadger.com/images/glefevre/citower "Get your own version badge on microbadger.com")
 
 *(Jenkins packed with ansible and awscli)*
 
@@ -25,4 +26,3 @@ This container is perfect to deploy AWS (Amazon Web Service) ressources like EC2
 ## How to use it ?
 ### Run container
 `docker run -d -p 8080:8080 -p 50000:50000 --name=citower glefevre/citower`
-
